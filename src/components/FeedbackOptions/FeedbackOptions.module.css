@@ -1,0 +1,21 @@
+.listButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons {
+  cursor: pointer;
+  background-color: lightgray;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 4px;
+  padding: 8px;
+  transition: background-color 250ms linear, border 250ms linear,
+    color 250ms linear;
+}
+
+.buttons:hover {
+  background-color: black;
+  border: none;
+  color: white;
+}
